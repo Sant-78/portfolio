@@ -570,6 +570,11 @@ img {
   border-top: 1px solid var(--border);
 }
 
+.project-footer .project-link + .project-link,
+.project-footer .project-internal + .project-link {
+  margin-left: auto;
+}
+
 .project-tools {
   display: flex;
   gap: 0.5rem;
