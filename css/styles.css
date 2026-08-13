@@ -598,6 +598,13 @@ img {
   gap: 0.65rem;
 }
 
+.project-internal {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-style: italic;
+  cursor: default;
+}
+
 /* ===== Timeline ===== */
 .timeline {
   position: relative;

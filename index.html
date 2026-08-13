@@ -201,6 +201,36 @@
         <div class="projects-grid">
           <article class="project-card reveal">
             <div class="project-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3>Flexcube vs Oracle GL Reconciliation Automation</h3>
+            <p class="project-desc">
+              End-to-end Python automation built with vibe coding (AI coding agents in VS Code) at Capri Global Capital. Reconciles Flexcube Trial Balance CSV reports against Oracle Fusion GL dumps, generates formatted Excel workbooks with GL-level diffs, and sends SUCCESS/WARNING email alerts to finance teams.
+            </p>
+            <ul class="project-metrics">
+              <li><strong>2</strong> legal entities — CGCL & CGHFL</li>
+              <li><strong>Daily</strong> automated GL reconciliation</li>
+              <li>Flexcube closing vs Oracle net — <strong>diff tracking</strong></li>
+              <li>Auto email alerts when mismatches exceed threshold</li>
+            </ul>
+            <p class="project-insight">
+              Workflow: Ingest TB & Oracle files → Pandas grouping by GL code → cumulative Oracle net → date-shifted matching → OpenPyXL report → SMTP/Outlook notification.
+            </p>
+            <div class="project-footer">
+              <div class="project-tools">
+                <span class="tool-badge">Python</span>
+                <span class="tool-badge">Pandas</span>
+                <span class="tool-badge">OpenPyXL</span>
+                <span class="tool-badge">Oracle</span>
+                <span class="tool-badge">VS Code</span>
+                <span class="tool-badge">AI Agents</span>
+              </div>
+              <span class="project-link project-internal">Capri Global — Internal Tool</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-icon">
               <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
             </div>
             <h3>Credit Card Transaction Analysis</h3>
@@ -244,6 +274,7 @@
               <h3>Account Executive</h3>
               <p class="timeline-company">Capri Global Capital Limited — Goregaon, Mumbai</p>
               <ul>
+                <li>Built Python automation (vibe coding with AI agents in VS Code) to reconcile Flexcube Trial Balance vs Oracle GL reports daily</li>
                 <li>Cleaned and validated data, ensuring accuracy for financial reports</li>
                 <li>Performed daily bank statement reconciliations, identifying and resolving discrepancies</li>
                 <li>Prepared and processed accurate accounting entries</li>
