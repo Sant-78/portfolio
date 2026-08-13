@@ -51,7 +51,7 @@
           </span>
         </div>
         <div class="hero-actions reveal">
-          <a href="resume.pdf" class="btn btn-primary" download="Santosh_pal_resume.pdf">Download Resume</a>
+          <a href="resume.html?print=1" class="btn btn-primary" target="_blank" rel="noopener">Download Resume</a>
           <a href="#contact" class="btn btn-secondary">Get in Touch</a>
           <a href="https://www.linkedin.com/in/santoshpal7800" class="btn btn-outline" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
@@ -186,6 +186,7 @@
           <span class="tag">Redash</span>
           <span class="tag">Data Cleaning</span>
           <span class="tag">Pandas Automation</span>
+          <span class="tag">Streamlit</span>
           <span class="tag">Vibe Coding</span>
           <span class="tag">AI Coding Agents</span>
           <span class="tag">Statistical Analysis</span>
@@ -209,9 +210,9 @@
               End-to-end Python automation built with vibe coding (AI coding agents in VS Code) at Capri Global Capital. Reconciles Flexcube Trial Balance CSV reports against Oracle Fusion GL dumps, generates formatted Excel workbooks with GL-level diffs, and sends SUCCESS/WARNING email alerts to finance teams.
             </p>
             <ul class="project-metrics">
-              <li><strong>2</strong> legal entities — CGCL & CGHFL</li>
-              <li><strong>Daily</strong> automated GL reconciliation</li>
-              <li>Flexcube closing vs Oracle net — <strong>diff tracking</strong></li>
+              <li><strong>2</strong> Legal Entities — CGCL & CGHFL</li>
+              <li><strong>Daily</strong> Automated GL Reconciliation</li>
+              <li>Flexcube closing vs Oracle net — <strong>Difference Tracking</strong></li>
               <li>Auto email alerts when mismatches exceed threshold</li>
             </ul>
             <p class="project-insight">
@@ -227,6 +228,35 @@
                 <span class="tool-badge">AI Agents</span>
               </div>
               <span class="project-link project-internal">Capri Global — Internal Tool </span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 16l4-6 4 3 5-8"/></svg>
+            </div>
+            <h3>HL RPS Cash Flow Bucketing Automation</h3>
+            <p class="project-desc">
+              Interactive Streamlit app built with vibe coding (AI coding agents in VS Code) at Capri Global Capital. Automates Home Loan RPS cash flow bucketing — merges EMI & Amortizing loan chunk files, maps aging buckets from 0-7 days through 5+ years, and splits Principal vs Interest proceeds into a downloadable summary report.
+            </p>
+            <ul class="project-metrics">
+              <li><strong>10</strong> aging buckets — 0-7 days to 5+ years</li>
+              <li>Multi-file merge from <strong>CSV & Excel</strong> loan chunks</li>
+              <li>Principal + Interest pivot by <strong>time bucket</strong></li>
+              <li>One-click UI with instant <strong>CSV download</strong></li>
+            </ul>
+            <p class="project-insight">
+              Workflow: Input folder → merge chunks → clean cashflow types → compute day gaps → assign buckets → pivot totals → export bucket summary CSV.
+            </p>
+            <div class="project-footer">
+              <div class="project-tools">
+                <span class="tool-badge">Python</span>
+                <span class="tool-badge">Pandas</span>
+                <span class="tool-badge">Streamlit</span>
+                <span class="tool-badge">VS Code</span>
+                <span class="tool-badge">AI Agents</span>
+              </div>
+              <span class="project-link project-internal">Capri Global — Internal Tool</span>
             </div>
           </article>
 
@@ -275,7 +305,7 @@
               <h3>Account Executive</h3>
               <p class="timeline-company">Capri Global Capital Limited — Goregaon, Mumbai</p>
               <ul>
-                <li>Built Python automation (vibe coding with AI agents in VS Code) to reconcile Flexcube Trial Balance vs Oracle GL reports daily</li>
+                <li>Built Python automations (vibe coding with AI agents in VS Code) — Flexcube vs Oracle GL reconciliation and HL RPS cash flow bucketing Streamlit app</li>
                 <li>Cleaned and validated data, ensuring accuracy for financial reports</li>
                 <li>Performed daily bank statement reconciliations, identifying and resolving discrepancies</li>
                 <li>Prepared and processed accurate accounting entries</li>
