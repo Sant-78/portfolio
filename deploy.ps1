@@ -29,7 +29,7 @@ if (-not (Test-Path ".git")) {
     git init
     git branch -M main
 }
-git add index.html css/ js/ projects/ .gitignore README.md deploy.ps1
+git add index.html css/ js/ .gitignore README.md deploy.ps1
 if (Test-Path "resume.pdf") { git add resume.pdf }
 git diff --cached --quiet
 if ($LASTEXITCODE -ne 0) {
